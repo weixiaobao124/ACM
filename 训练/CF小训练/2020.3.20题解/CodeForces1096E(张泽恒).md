@@ -1,4 +1,5 @@
----
+<hr>
+
 #### <center>[CodeForces 1096E](http://codeforces.com/problemset/problem/1092/E)</center>
 
 **题意：**
@@ -49,5 +50,5 @@ $$ANS=\sum_{X=R}^{S}\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}*
 
 **时间复杂度：**$$O(S*P^2)\approx5e7$$
 
----
+<hr>
 
