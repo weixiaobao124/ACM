@@ -31,7 +31,7 @@ $$SUM = C_{N+M-1}^{M-1}- |\bigcup_{i=1}^{M}S_i|$$
 此时容斥原理：
 <br/>
 
-$SUM = C^{M-1}_{N+M-1}- |\bigcup_{i=1}^{M}S_i|$
+$SUM = C_{N+M-1}^{M-1}- |\bigcup_{i=1}^{M}S_i|$
 <br/>
  $=C_{N+M-1}^{M-1}+\sum_{i=1}^{M}(-1)^{i}|S_i|$
  <br/>
