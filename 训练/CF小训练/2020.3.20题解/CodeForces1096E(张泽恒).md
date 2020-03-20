@@ -56,3 +56,4 @@ $$ANS=\sum_{X=R}^{S}\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}*
 
 <hr>
 
+$$x = y$$
