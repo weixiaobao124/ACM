@@ -37,17 +37,17 @@ $$SUM = C_{N+M-1}^{M-1}- |\bigcup_{i=1}^{M}S_i|$$
 $SUM = C_{N+M-1}^{M-1}- |\bigcup_{i=1}^{M}S_i|$
 
 $=C_{N+M-1}^{M-1}+\sum_{i=1}^{M}(-1)^{i}|S_i|$
- 
+
 $=C_{N+M-1}^{M-1}+\sum_{i=1}^{M}(-1)^{i}*C_{N-(K+1)*i+M-1}^{M-1}$
 
 $=\sum_{i=0}^{M}(-1)^{i}*C_{N-(K+1)*i+M-1}^{M-1}$
 
 把值代入模型的公式,计算最值为 $X$ 下的概率：
 
-$$ANS(X)=\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}C_{(S-KX-X*i)+P-K-1}^{P-K-1}}{K}$$
+$$ANS(X)=\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}C_{(S-K*X-X*i)+P-K-1}^{P-K-1}}{K}$$
 
 最后结果： 
-$$ANS=\sum_{X=R}^{S}\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}C^{P-K-1}_{(S-KX-X*i)+P-K-1}}{K}$$
+$$ANS=\frac{\sum_{X=R}^{S}\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}C^{P-K-1}_{(S-K*X-X*i)+P-K-1}}{K}}{C_{S-R+P-1}^{P-1}}$$
 
 
 特别地：除法利用到了逆元。
@@ -55,4 +55,3 @@ $$ANS=\sum_{X=R}^{S}\sum_{k=1}^{P}\frac{C_{P-1}^{K-1}* \sum_{i=0}^{P-K}(-1)^{i}C
 **时间复杂度：**$$O(S*P^2)\approx5e7$$
 
 <hr>
-
