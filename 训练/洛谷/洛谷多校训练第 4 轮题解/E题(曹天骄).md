@@ -15,7 +15,7 @@
 
 **数据范围：**
 
-&nbsp;$1 \leqslant   n,m \leqslant   1000 $
+&nbsp;$1 \leq   n,m \leq   1000 $
 
 **题解：**
 
@@ -74,6 +74,8 @@ int main() {
 
 <hr>
 
+
+
 **复杂度：**
 
-#### <center>$$O(m\cdot    log_{2}m)$$
+#### $$O(m\cdot    log_{2}m)$$
