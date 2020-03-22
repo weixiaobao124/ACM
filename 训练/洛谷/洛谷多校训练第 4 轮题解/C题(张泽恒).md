@@ -98,7 +98,6 @@ $=\sum_{i=1}^{n}(nx_i^2-2x_iSUM)+n^2\overline S^2$
 
 $=\sum_{i=1}^{n}(nx_i^2-2x_iSUM)+SUM^2$
 
-$=\sum_{i=1}^{n}(nx_i^2)-SUM^2$
 
 我们遍历分解点的时候只会一个集合中的数，通过维护 
 
