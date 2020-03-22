@@ -1,6 +1,6 @@
 #### <center>[洛谷T125995 God J and Eel](https://www.luogu.com.cn/problem/T125995)</center>
 
-<h2>
+<hr>
 
 
 **题意：**
@@ -72,7 +72,7 @@ int main() {
 	return 0;
 }
 
-```
+<hr>
 
 **复杂度：**
 
